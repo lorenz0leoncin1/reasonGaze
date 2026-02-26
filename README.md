@@ -28,7 +28,7 @@ The reasoning chain is explicit and inspectable — the model explains *why* it 
 **Task**: *"person"*
 
 <p align="center">
-  <img src="examples/simulation_gif.gif" width="500">
+  <img src="simulation_result.png" width="600">
 </p>
 
 VisionReasoner localizes the target via chain-of-thought reasoning; the race drift-diffusion model then generates a realistic fixation sequence over the saliency map.
