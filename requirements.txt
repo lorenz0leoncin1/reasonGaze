@@ -1,0 +1,16 @@
+# Core dependencies (same as original scanDDM)
+torch>=2.0
+numpy
+scipy
+opencv-python
+matplotlib
+seaborn
+tqdm
+
+# VisionReasoner backend (segzero)
+transformers>=4.40
+qwen-vl-utils
+Pillow
+
+# Optional: SAM2 segmentation (only needed if use_seg=True in segzero)
+# sam2
